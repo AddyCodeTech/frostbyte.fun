@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrostByte Fun AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">FrostByte Fun AI</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:underline">Home</a></li>
+                <li><a href="#community" class="hover:underline">Community</a></li>
+                <li><a href="#login" class="hover:underline">Login</a></li>
+                <li><a href="#signup" class="hover:underline">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-100 py-20 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-4">Welcome to FrostByte Fun AI</h2>
+            <p class="text-lg mb-6">Create, share, and connect with our AI-powered community!</p>
+            <a href="#community" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Join the Community</a>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="py-10">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold text-center mb-8">Our Community</h3>
+            <div id="posts" class="space-y-4">
+                <!-- Posts will be added dynamically with JavaScript -->
+                <div class="bg-white p-4 rounded shadow">
+                    <h4 class="text-xl font-semibold">Sample Post</h4>
+                    <p>Welcome to FrostByte Fun AI! Share your thoughts here.</p>
+                    <button class="text-blue-600 hover:underline">Comment</button>
+                </div>
+            </div>
+            <div class="mt-6">
+                <textarea id="new-post" class="w-full p-2 border rounded" rows="4" placeholder="Write a post..."></textarea>
+                <button id="post-button" class="bg-blue-600 text-white px-4 py-2 rounded mt-2 hover:bg-blue-700">Post</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2025 FrostByte Fun AI. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
